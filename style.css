@@ -166,9 +166,13 @@ footer {
 
 /* Large devices (Laptops, upto 992px and above) */
 /* @media (min-width: 769px) and (max-width: 992px) */
-@media (width >=769px) and (width <=992px) {
-  /* write code here */
+@media (max-width: 991px) {
+  .navbar-nav .nav-link {
+    margin: 0.25rem 0;
+    text-align: center;
+  }
 }
+
 
 /* X-Large devices (large desktops, upto 1200px and above) */
 /* @media (min-width: 993px) and (max-width: 1200px) */
