@@ -1,226 +1,190 @@
 .heroheadingFont {
-    font-family: var(--ffPrimary);
-    font-weight: 900;
-    font-size: 7rem;
-    color: #000000;
+  font-family: var(--ffPrimary);
+  font-weight: 900;
+  font-size: 7rem;
+  color: #000000;
 }
 
 .headingFont {
-    font-family: var(--ffPrimary);
-    font-weight: 800;
-    font-size: 4rem;
-    color: #000000;
+  font-family: var(--ffPrimary);
+  font-weight: 800;
+  font-size: 4rem;
+  color: #000000;
 }
 
 .subtitle {
-    font-family: var(--ffSecondary);
-    font-size: 2rem;
-    color: #000000;
+  font-family: var(--ffSecondary);
+  font-size: 2rem;
+  color: #000000;
 }
 
 .paraFont {
-    font-family: var(--ffSecondary);
-    font-size: 1.5rem;
-    color: #000000;
+  font-family: var(--ffSecondary);
+  font-size: 1.5rem;
+  color: #000000;
 }
 
 .regularFont {
-    font-family: var(--ffPrimary);
-    font-weight: 800;
-    font-size: 1.6rem;
-    color: #000000;
+  font-family: var(--ffPrimary);
+  font-weight: 800;
+  font-size: 1.6rem;
+  color: #000000;
 }
 
 .span {
-    color: #BE9C79;
+  color: #be9c79;
 }
 
+.navBarSection .navbar {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
 
 .navBarSection {
-    /* background-color: #00ffff; */
+  background-color: #f8f9fa;
 }
 
-.navbarr {
-    padding-right: 24rem;
+.logo-img {
+  height: 60px;
+  width: auto;
+  margin-left: 1rem;
 }
 
-.navbarr img {
-    height: 5rem;
-    width: auto;
+.navbar-nav .nav-link {
+  font-size: 18px;
+  margin: 0.5rem 1rem;
 }
 
-.navbar-nav {
-    padding-right: 18rem;
+.navbar-nav .nav-link:hover {
+  color: #00aaff;
 }
 
-.navbar-nav a {
-    /* background-color: #00ffff; */
-    font-size: 2rem;
-    padding: 0rem 0rem;
+.navbar.sticky-top {
+  z-index: 1030;
 }
 
 
-.heroSection {
-    /* background-color: aqua; */
-}
 
 .heroContainer {
-    /* background-color: aqua; */
-    background-image: url(./assets/images/hero.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    /* width: 100%; */
-    height: 100vh;
+  background-image: url(./assets/images/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
 }
 
 .row {
-    /* background-color: aqua; */
-    padding: 2rem 0rem;
+  padding: 2rem 0rem;
 }
 
 .col {
-    /* background-color: aqua; */
-    position: relative;
+  position: relative;
 }
 
 .card {
-    /* background-color: aqua; */
-    position: absolute;
-    top: 20rem;
-    left: 4rem;
+  position: absolute;
+  top: 20rem;
+  left: 4rem;
 }
 
 .card-body a {
-    background-color: #BE9C79;
-    font-family: var(--ffSecondary);
-    font-size: 2rem;
+  background-color: #be9c79;
+  font-family: var(--ffSecondary);
+  font-size: 2rem;
 }
 
 .card-body a:hover {
-    background-color: #000000;
-}
-
-
-
-
-.abouutUsSection {
-    /* background-color: #7fffd4; */
+  background-color: #000000;
 }
 
 .aboutUsImg {
-    /* background-color: #7fffd4; */
-    height: 55rem;
-    width: auto;
+  height: 55rem;
+  width: auto;
 }
 
 .card-body a {
-    background-color: #BE9C79;
-    font-family: var(--ffSecondary);
-    font-size: 2rem;
+  background-color: #be9c79;
+  font-family: var(--ffSecondary);
+  font-size: 2rem;
 }
 
 .card-body a:hover {
-    background-color: #000000;
-}
-
-
-
-.facility {
-    /* background-color: aqua; */
+  background-color: #000000;
 }
 
 .card-heading-img {
-    width: 25rem;
-    height: 5rem;
+  width: 25rem;
+  height: 5rem;
 }
 
 .card-title-heading {
-    /* background-color: #BE9C79; */
 }
 
 .card-img-top {
-    /* background-color: aqua; */
-    width: 10rem;
-}
-
-.popular {
-    /* background-color: aliceblue; */
+  width: 10rem;
 }
 
 .popularImg {
-    height: 28rem;
+  height: 28rem;
 }
 
 .teamImg {
-    height: 30rem;
-}
-
-.contactUs {
-    /* background-color: #00ffff; */
+  height: 30rem;
 }
 
 .formImg img {
-    /* background-color: aquamarine; */
-    height: 60rem;
+  height: 60rem;
 }
 
 .formBox {
-    border: 1px solid black;
-    padding: 2rem 2rem;
-    height: fit-content;
+  border: 1px solid black;
+  padding: 2rem 2rem;
+  height: fit-content;
 }
 
 .formHeading h3 {
-    /* background-color: aqua; */
-    font-family: var(--ffSecondary);
-    font-size: 3.5rem;
+  font-family: var(--ffSecondary);
+  font-size: 3.5rem;
 }
 
 .form-group input {
-    /* background-color: aquamarine; */
-    font-size: 2.5rem;
-    padding: 1rem 15rem 1rem 1.5rem;
-    border: 1px solid black;
+  font-size: 2.5rem;
+  padding: 1rem 15rem 1rem 1.5rem;
+  border: 1px solid black;
 }
 
-.tableBox{
-    border: 1px solid #000000;
+.tableBox {
+  border: 1px solid #000000;
 }
-.a{
-    text-decoration: none;
+.a {
+  text-decoration: none;
 }
 
 .btn {
-    font-size: 2rem;
-    background-color: #BE9C79;
-    padding: 1rem 3rem;
-    color: #ffffff;
-    width: fit-content;
+  font-size: 2rem;
+  background-color: #be9c79;
+  padding: 1rem 3rem;
+  color: #ffffff;
+  width: fit-content;
 }
 
 .btn:hover {
-    background-color: #000000;
-    color: #ffffff;
+  background-color: #000000;
+  color: #ffffff;
 }
 
-
-
-
 .icon {
-    background-color: #BE9C79;
-    height: 7rem;
-    width: 7rem;
+  background-color: #be9c79;
+  height: 7rem;
+  width: 7rem;
 }
 
 .icon i {
-    /* background-color: #00ffff; */
-    font-size: 4rem;
-    color: #ffffff;
-    padding: 2rem 2rem;
+  font-size: 4rem;
+  color: #ffffff;
+  padding: 2rem 2rem;
 }
 
 .copyLine hr {
-    width: 70%;
-    height: 1.5px;
+  width: 70%;
+  height: 1.5px;
 }
