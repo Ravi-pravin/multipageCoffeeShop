@@ -152,17 +152,6 @@ footer {
   .navbar {
     position: relative;
   }
-  .navbar-toggler-icon {
-    position: absolute;
-    right: -15rem;
-    top: -3rem;
-  }
-  .navbar-toggler {
-    background-image: url(./assets/images/gallery-1.jpg) ;
-    height: 2rem;
-    width: 2rem;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
-  }
 
   .heroSection .card-body{
     justify-content: start;
